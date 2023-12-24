@@ -1,0 +1,1469 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 70px;
+  background: #0063A9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 52px;
+}
+.header .inner .logo {
+  width: 115px;
+  height: 30px;
+}
+.header .inner .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 22px;
+}
+.header .inner .nav .catalog {
+  width: 138px;
+  height: 40px;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+.header .inner .nav .catalog img {
+  width: 15px;
+  height: 9px;
+}
+.header .inner .nav .catalog span {
+  color: #FFF;
+  font-family: "Gilroy";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+.header .inner .nav .search {
+  width: 675px;
+  height: 40px;
+  position: relative;
+}
+.header .inner .nav .search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1000px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  padding-left: 41px;
+  padding-right: 69px;
+}
+.header .inner .nav .search input::-webkit-input-placeholder {
+  color: #949494;
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .inner .nav .search input::-moz-placeholder {
+  color: #949494;
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .inner .nav .search input:-ms-input-placeholder {
+  color: #949494;
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .inner .nav .search input::-ms-input-placeholder {
+  color: #949494;
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .inner .nav .search input::placeholder {
+  color: #949494;
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .inner .nav .search img {
+  position: absolute;
+  width: 18px;
+  left: 13px;
+  top: 11px;
+}
+.header .inner .nav .search span {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  color: #ABABAB;
+  font-family: "Gilroy";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.header .inner .nav .auth_and_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.header .inner .nav .auth_and_cart .auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9px;
+}
+.header .inner .nav .auth_and_cart .auth .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.header .inner .nav .auth_and_cart .auth .title p {
+  color: #FFF;
+  font-family: "Gilroy";
+  font-style: normal;
+  line-height: normal;
+}
+.header .inner .nav .auth_and_cart .auth .title p:first-child {
+  font-size: 10px;
+  font-weight: 400;
+}
+.header .inner .nav .auth_and_cart .auth .title p:last-child {
+  font-size: 14px;
+  font-weight: 600;
+}
+.header .inner .nav .auth_and_cart .auth .icon {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  border: 1px solid #C1C1C1;
+  background: #FFF;
+}
+.header .inner .nav .auth_and_cart .auth .icon img {
+  width: 17px;
+}
+.header .inner .nav .auth_and_cart hr {
+  width: 1px;
+  border: none;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.header .inner .nav .auth_and_cart .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FFF;
+}
+.header .inner .nav .auth_and_cart .cart img {
+  width: 15px;
+}
+.header .inner .nav .auth_and_cart .cart span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #DC3434;
+  color: #FFF;
+  font-family: "Gilroy";
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+
+.current {
+  margin-top: 20px;
+}
+.current .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.current .inner .card, .current .inner .card_skeleton {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+}
+.current .inner .card img {
+  width: 60px;
+  height: 60px;
+}
+.current .inner .card p {
+  color: #000;
+  text-align: center;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.current .inner .card_skeleton div {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.current .inner .card_skeleton p {
+  width: 52px;
+  height: 13px;
+  background: #ECEDF2;
+}
+
+.categories {
+  margin-top: 49px;
+}
+.categories .inner h2 {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+.categories .inner .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.categories .inner .cards .card {
+  width: 170px;
+  border-radius: 10px;
+  background: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 35px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.categories .inner .cards .card .title {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3px;
+}
+.categories .inner .cards .card .title p {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.categories .inner .cards .card .title span {
+  color: #727272;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.categories .inner .cards .card .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.categories .inner .cards .card .img img {
+  width: 128.488px;
+  height: 92.286px;
+}
+
+.bestsellers {
+  margin-top: 55px;
+}
+.bestsellers .inner .slick-prev {
+  left: -55px;
+}
+.bestsellers .inner .slick-prev:before {
+  font-size: 0;
+}
+.bestsellers .inner .slick-next {
+  right: -55px;
+}
+.bestsellers .inner .slick-next:before {
+  font-size: 0;
+}
+.bestsellers .inner .slick-slide {
+  width: 199px !important;
+}
+.bestsellers .inner .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.bestsellers .inner .slick-dots li.slick-active button:before {
+  opacity: 100%;
+  color: #0063A9;
+}
+.bestsellers .inner .slick-active button::before {
+  display: inline-block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+}
+.bestsellers .inner .slick-dots .slick-active button {
+  font-size: 0;
+}
+.bestsellers .inner .slick-dots .slick-active button::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.bestsellers .inner .title {
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestsellers .inner .title h2 {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bestsellers .inner .title p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 163px;
+  height: 40px;
+  padding: 10px 12px 10px 11px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3186C3;
+  font-family: "Gilroy";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.bestsellers .inner .title p:hover {
+  text-decoration: underline;
+}
+.bestsellers .inner .card {
+  padding: 12px;
+  border-radius: 8.291px;
+  border: 1.083px solid #FFF;
+  background: #FFF;
+}
+.bestsellers .inner .card .img {
+  width: 100%;
+  position: relative;
+  margin-bottom: 9px;
+}
+.bestsellers .inner .card .img img {
+  width: 100%;
+  border-radius: 9px;
+}
+.bestsellers .inner .card .img .favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bestsellers .inner .card .img .favorite img {
+  width: 16px;
+}
+.bestsellers .inner .card h3 {
+  color: #1A1919;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  width: 100%;
+  line-clamp: 2;
+  box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 7px;
+  min-height: 51px;
+  max-height: 51px;
+  display: inline-block;
+}
+.bestsellers .inner .card .price {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.bestsellers .inner .card .status {
+  color: #73CB5E;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+.bestsellers .inner .card .set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  color: #3286C2;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.bestsellers .inner .card .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestsellers .inner .card .counter .inc, .bestsellers .inner .card .counter .dec {
+  width: 33px;
+  height: 33px;
+  border-radius: 100px;
+  background: #F5F5F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestsellers .inner .card .counter .inc img, .bestsellers .inner .card .counter .dec img {
+  width: 24px;
+  height: 24px;
+}
+.bestsellers .inner .card .counter span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 73px;
+  padding: 9px 24px 11px 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-align: center;
+  font-family: "Gilroy";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.news {
+  margin-top: 50px;
+}
+.news .slick-prev {
+  left: -55px;
+}
+.news .slick-prev:before {
+  font-size: 0;
+}
+.news .slick-next {
+  right: -55px;
+}
+.news .slick-next:before {
+  font-size: 0;
+}
+.news .slick-slide {
+  width: 401.69px !important;
+}
+.news .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11.31px;
+}
+.news .slick-dots li.slick-active button:before {
+  opacity: 100%;
+  color: #0063A9;
+}
+.news .slick-active button::before {
+  display: inline-block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+}
+.news .slick-dots .slick-active button {
+  font-size: 0;
+}
+.news .slick-dots .slick-active button::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.news .title {
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.news .title h2 {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.news .title p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3186C3;
+  font-family: "Gilroy";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.news .title .title_inner:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.news .card {
+  width: 401.69px !important;
+  height: 181.48px !important;
+  border-radius: 11.066px;
+  background: #F0F9FF;
+  position: relative;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+.news .card .circle {
+  position: absolute;
+  z-index: 2;
+  background: #D7EEFE;
+  width: 110.658px;
+  height: 110.658px;
+  border-radius: 50%;
+}
+.news .card .circle:first-child {
+  bottom: -25px;
+  left: -19px;
+}
+.news .card .circle.last {
+  top: -63px;
+  right: -12px;
+}
+.news .card .content {
+  gap: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 3;
+}
+.news .card .content .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 22px;
+}
+.news .card .content .text .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+.news .card .content .text .title span {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 24.101px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.news .card .content .text .title p {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.news .card .content .text button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  width: 109px;
+  height: 29px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 11.066px;
+  background: #0063A9;
+  color: #FFF;
+  font-family: "Gilroy";
+  font-size: 11.247px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.news .card img {
+  width: 166px;
+}
+.news .cardsSkeleton {
+  width: 401.69px !important;
+  height: 181.48px !important;
+  border-radius: 11.066px;
+  background: #ECEDF2;
+}
+
+.auction {
+  margin-top: 55px;
+}
+.auction .inner .slick-prev {
+  left: -55px;
+}
+.auction .inner .slick-prev:before {
+  font-size: 0;
+}
+.auction .inner .slick-next {
+  right: -55px;
+}
+.auction .inner .slick-next:before {
+  font-size: 0;
+}
+.auction .inner .slick-slide {
+  width: 199px !important;
+}
+.auction .inner .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.auction .inner .slick-dots li.slick-active button:before {
+  opacity: 100%;
+  color: #0063A9;
+}
+.auction .inner .slick-active button::before {
+  display: inline-block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+}
+.auction .inner .slick-dots .slick-active button {
+  font-size: 0;
+}
+.auction .inner .slick-dots .slick-active button::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.auction .inner .title {
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.auction .inner .title h2 {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.auction .inner .title p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 163px;
+  height: 40px;
+  padding: 10px 12px 10px 11px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3186C3;
+  font-family: "Gilroy";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.auction .inner .title p:hover {
+  text-decoration: underline;
+}
+.auction .inner .card {
+  padding: 12px;
+  border-radius: 8.291px;
+  border: 1.083px solid #FFF;
+  background: #FFF;
+}
+.auction .inner .card .img {
+  width: 100%;
+  position: relative;
+  margin-bottom: 9px;
+}
+.auction .inner .card .img img {
+  width: 100%;
+  border-radius: 9px;
+}
+.auction .inner .card .img .favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.auction .inner .card .img .favorite img {
+  width: 16px;
+}
+.auction .inner .card h3 {
+  color: #1A1919;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  width: 100%;
+  line-clamp: 2;
+  box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 7px;
+  min-height: 51px;
+  max-height: 51px;
+  display: inline-block;
+}
+.auction .inner .card .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.auction .inner .card .prices .price {
+  color: #F00;
+  font-family: "Gilroy";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.auction .inner .card .prices .old-price {
+  color: #808080;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: line-through;
+}
+.auction .inner .card .status {
+  color: #73CB5E;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+.auction .inner .card .set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  color: #3286C2;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.auction .inner .card .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.auction .inner .card .counter .inc, .auction .inner .card .counter .dec {
+  width: 33px;
+  height: 33px;
+  border-radius: 100px;
+  background: #F5F5F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.auction .inner .card .counter .inc img, .auction .inner .card .counter .dec img {
+  width: 24px;
+  height: 24px;
+}
+.auction .inner .card .counter span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 73px;
+  padding: 9px 24px 11px 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-align: center;
+  font-family: "Gilroy";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.addresses {
+  margin-top: 50px;
+}
+.addresses .slick-arrow {
+  display: none !important;
+}
+.addresses .slick-prev {
+  left: -55px;
+}
+.addresses .slick-prev:before {
+  font-size: 0;
+}
+.addresses .slick-next {
+  right: -55px;
+}
+.addresses .slick-next:before {
+  font-size: 0;
+}
+.addresses .slick-slide {
+  width: 408px !important;
+  height: 179px !important;
+}
+.addresses .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11.31px;
+}
+.addresses .slick-dots li.slick-active button:before {
+  opacity: 100%;
+  color: #0063A9;
+}
+.addresses .slick-active button::before {
+  display: inline-block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+}
+.addresses .slick-dots .slick-active button {
+  font-size: 0;
+}
+.addresses .slick-dots .slick-active button::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background: #0063A9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.addresses .title {
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.addresses .title h2 {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.addresses .title p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3186C3;
+  font-family: "Gilroy";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.addresses .title p:hover {
+  text-decoration: underline;
+}
+.addresses .card {
+  padding: 15px;
+  background: #fff;
+}
+.addresses .card .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 13px;
+}
+.addresses .card .name_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.addresses .card .name_title img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.addresses .card .name_title .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.addresses .card .name_title .text p:first-child {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.addresses .card .name_title .text p:last-child {
+  color: #0062D5;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+}
+.addresses .card .location {
+  margin-top: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 5px;
+}
+.addresses .card .location img {
+  width: 17px;
+}
+.addresses .card .location_title {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 251px;
+}
+.addresses .card .address_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+}
+.addresses .card .address_footer .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+.addresses .card .address_footer .time img {
+  width: 17px;
+}
+.addresses .card .address_footer .time_title {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.addresses .card .address_footer .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+.addresses .card .address_footer .phone img {
+  width: 17px;
+}
+.addresses .card .address_footer .phone_title {
+  color: #000;
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  margin-top: 35px;
+  padding: 72px 0 30px 100px;
+  background: linear-gradient(107deg, #3186C3 6.46%, #004F86 68.08%);
+}
+.footer .inner .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .inner .content .logo > img {
+  width: 183.599px;
+}
+.footer .inner .content .logo > p {
+  width: 230px;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 42px 0 72px;
+}
+.footer .inner .content .logo .markets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .inner .content .logo .markets img {
+  width: 144.943px;
+}
+.footer .inner .content .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 155px;
+}
+.footer .inner .content .nav .lists h3 {
+  color: #FFF;
+  font-family: "Gilroy";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.footer .inner .content .nav .lists ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.footer .inner .content .nav .lists ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+.footer .inner .content .nav .lists ul li p {
+  color: #E0E0E0;
+  font-family: "Gilroy";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer .inner .content .nav .lists ul li span {
+  color: #FFF;
+  font-family: "Gilroy";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer .inner .content .nav .lists ul li .phones {
+  line-height: 160%;
+}
+.footer .inner .content button {
+  width: 125px;
+  height: 29px;
+  border: none;
+  border-radius: 100px;
+  background: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+  margin-top: 40px;
+}
+.footer .inner hr {
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  height: 1px;
+  margin-top: 105px;
+  margin-bottom: 33px;
+}
+.footer .inner .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .inner .copyright p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Gilroy";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.footer .inner .copyright .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.footer .inner .copyright .social img {
+  width: 24px;
+}
+
+.app {
+  background: #F8FAFF;
+}

@@ -1,0 +1,147 @@
+.addresses
+    margin-top: 50px
+    .slick-arrow
+        display: none !important
+    .slick-prev
+        left: -55px
+        &:before
+            font-size: 0
+    .slick-next
+        right: -55px
+        &:before
+            font-size: 0
+    .slick-slide
+        width: 408px !important
+        height: 179px !important
+    .slick-track
+        display: flex
+        gap: 11.31px
+    .slick-dots li.slick-active button:before
+        opacity: 100%
+        color: #0063A9
+    .slick-active button::before
+        display: inline-block
+        width: 33px
+        height: 3px
+        border-radius: 26px
+        background: #0063A9
+    .slick-dots .slick-active button
+        font-size: 0
+    .slick-dots .slick-active button::before
+        content: ''
+        display: block
+        width: 33px
+        height: 3px
+        border-radius: 26px
+        background: #0063A9
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    .title
+        margin-bottom: 18px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        h2
+            color: #000
+            font-family: 'Gilroy'
+            font-size: 25px
+            font-style: normal
+            font-weight: 600
+            line-height: normal
+        p
+            display: flex
+            justify-content: center
+            align-items: center
+            color: #3186C3
+            font-family: 'Gilroy'
+            font-size: 16px
+            font-style: normal
+            font-weight: 600
+            line-height: normal
+            cursor: pointer
+            &:hover
+                text-decoration: underline
+    .card
+        padding: 15px
+        background: #fff
+        .name
+            display: flex
+            justify-content: space-between
+            align-items: center
+            border-bottom: 1px solid #E3E3E3
+            padding-bottom: 13px
+            &_title
+                display: flex
+                align-items: center
+                gap: 10px
+                img
+                    width: 42px
+                    height: 42px
+                    border-radius: 50%
+                .text
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    p:first-child
+                        color: #000
+                        font-family: 'Gilroy'
+                        font-size: 18px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: normal
+                    p:last-child
+                        color: #0062D5
+                        font-family: 'Gilroy'
+                        font-size: 12px
+                        font-style: normal
+                        font-weight: 400
+                        line-height: normal
+                        text-decoration: underline
+        .location
+            margin-top: 21px
+            display: flex
+            align-items: start
+            gap: 5px
+            img
+                width: 17px
+            &_title
+                color: #000
+                font-family: 'Gilroy'
+                font-size: 14px
+                font-style: normal
+                font-weight: 400
+                line-height: normal
+                width: 251px
+        .address_footer
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-top: 22px
+            .time
+                display: flex
+                align-items: center
+                gap: 5px
+                img
+                    width: 17px
+                &_title
+                    color: #000
+                    font-family: 'Gilroy'
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: normal
+            .phone
+                display: flex
+                align-items: center
+                gap: 5px
+                img
+                    width: 17px
+                &_title
+                    color: #000
+                    font-family: 'Gilroy'
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: normal

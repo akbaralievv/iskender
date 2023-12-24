@@ -1,0 +1,163 @@
+.bestsellers
+    margin-top: 55px
+    .inner
+        .slick-prev
+            left: -55px
+            &:before
+                font-size: 0
+        .slick-next
+            right: -55px
+            &:before
+                font-size: 0
+        .slick-slide
+            width: 199px !important
+        .slick-track
+            display: flex
+            gap: 10px
+        .slick-dots li.slick-active button:before
+            opacity: 100%
+            color: #0063A9
+        .slick-active button::before
+            display: inline-block
+            width: 33px
+            height: 3px
+            border-radius: 26px
+            background: #0063A9
+        .slick-dots .slick-active button
+            font-size: 0
+        .slick-dots .slick-active button::before
+            content: ''
+            display: block
+            width: 33px
+            height: 3px
+            border-radius: 26px
+            background: #0063A9
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+        .title
+            margin-bottom: 18px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            h2
+                color: #000
+                font-family: 'Gilroy'
+                font-size: 25px
+                font-style: normal
+                font-weight: 600
+                line-height: normal
+            p
+                display: flex
+                width: 163px
+                height: 40px
+                padding: 10px 12px 10px 11px
+                justify-content: center
+                align-items: center
+                color: #3186C3
+                font-family: 'Gilroy'
+                font-size: 16px
+                font-style: normal
+                font-weight: 600
+                line-height: normal
+                cursor: pointer
+                &:hover
+                    text-decoration: underline
+        .card
+            padding: 12px
+            border-radius: 8.291px
+            border: 1.083px solid #FFF
+            background: #FFF
+            .img
+                width: 100%
+                position: relative
+                margin-bottom: 9px
+                img
+                    width: 100%
+                    border-radius: 9px
+                .favorite
+                    position: absolute
+                    top: 10px
+                    right: 10px
+                    width: 24px
+                    height: 24px
+                    border-radius: 4px
+                    background: rgba(255, 255, 255, 0.50)
+                    justify-content: center
+                    align-items: center
+                    display: flex
+                    img
+                        width: 16px
+            h3
+                color: #1A1919
+                font-family: 'Gilroy'
+                font-size: 14px
+                font-style: normal
+                font-weight: 500
+                line-height: normal
+                letter-spacing: 0.28px
+                width: 100%
+                line-clamp: 2
+                box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+                margin-bottom: 7px
+                min-height: 51px
+                max-height: 51px
+                display: inline-block
+            .price
+                color: #000
+                font-family: 'Gilroy'
+                font-size: 19px
+                font-style: normal
+                font-weight: 700
+                line-height: normal
+                margin-bottom: 5px
+            .status
+                color: #73CB5E
+                font-family: 'Gilroy'
+                font-size: 12px
+                font-style: normal
+                font-weight: 500
+                line-height: normal
+                margin-bottom: 6px
+            .set
+                display: flex
+                align-items: center
+                gap: 4px
+                color: #3286C2
+                font-family: 'Gilroy'
+                font-size: 12px
+                font-style: normal
+                font-weight: 400
+                line-height: normal
+                margin-bottom: 7px
+            .counter
+                display: flex
+                justify-content: space-between
+                align-items: center
+                .inc,.dec
+                    width: 33px
+                    height: 33px
+                    border-radius: 100px
+                    background: #F5F5F5
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    img
+                        width: 24px
+                        height: 24px
+                span
+                    display: flex
+                    width: 73px
+                    padding: 9px 24px 11px 24px
+                    justify-content: center
+                    align-items: center
+                    color: #000
+                    text-align: center
+                    font-family: 'Gilroy'
+                    font-size: 15px
+                    font-style: normal
+                    font-weight: 500
+                    line-height: normal
